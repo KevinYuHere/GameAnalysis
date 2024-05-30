@@ -16,7 +16,7 @@ const About = ref(false);
     }">
     <a-app>
       <a-modal v-model:open="About" title="关于我们" :footer="null">
-        <span>药典可视 - 数据可视化课程作业展示<br>All rights reserved. Infringement will be prosecuted.</span>
+        <span>基于 B 站 UP 主「一棵平衡树」的结论制作。<br>All rights reserved. Infringement will be prosecuted.</span>
       </a-modal>
       <div id="title">
         <div class="title-item">
@@ -31,14 +31,7 @@ const About = ref(false);
           </a-button>
           <a-button type="text" size="large" class="title-btn">
             <RouterLink to="/medical" style="display: flex;align-items: center">
-              <svg class="title-svg" xmlns="http://www.w3.org/2000/svg"
-                   xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
-                <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M20 17V5c0-1.121-.879-2-2-2s-2 .879-2 2v12l2 2l2-2z"></path>
-                  <path d="M16 7h4"></path>
-                  <path d="M18 19H5a2 2 0 1 1 0-4h4a2 2 0 1 0 0-4H6"></path>
-                </g>
-              </svg>
+              <img src="@/assets/calculate-konkai.png">
               <p class="title-text">经典名方</p></RouterLink>
           </a-button>
           <a-button type="text" size="large" class="title-btn">
@@ -73,16 +66,16 @@ const About = ref(false);
         <div
             style="display: grid;grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));gap: 40px;padding: 100px 0 40px 0">
           <div class="footer-container">
-            <p class="footer-title">药典可视</p>
+            <p class="footer-title">抽卡解析</p>
             <p class="footer-item"><a>代码仓库</a></p>
             <p class="footer-item"><a>相关结论</a></p>
             <p class="footer-item"><a>研究代码</a></p>
           </div>
           <div class="footer-container">
             <p class="footer-title">数据来源</p>
-            <p class="footer-item"><a>中国药典</a></p>
-            <p class="footer-item"><a>古代文献</a></p>
-            <p class="footer-item"><a>百度百科</a></p>
+            <p class="footer-item"><a>米哈游</a></p>
+            <p class="footer-item"><a>非小酋</a></p>
+            <p class="footer-item"><a>一棵平衡树</a></p>
           </div>
           <div class="footer-container">
             <p class="footer-title">开源支持</p>
@@ -91,7 +84,7 @@ const About = ref(false);
             <p class="footer-item"><a>AntdDesign</a></p>
           </div>
         </div>
-        <div style="padding-bottom: 100px;">数据可视化小组作业<br>数据仅作可视化演示之用</div>
+        <div style="padding-bottom: 100px;">欢迎关注开源仓库<br>数据仅供参考</div>
       </div>
     </a-app>
   </a-config-provider>
