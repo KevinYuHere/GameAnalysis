@@ -1,0 +1,140 @@
+{
+  "characterWish": {
+    "5": {
+      "limited": {
+        "character": [
+          "item1",
+          "item2",
+          "item3"
+        ]
+      },
+      "standard": {
+        "character": [
+          "item1",
+          "item2",
+          "item3"
+        ]
+      }
+    },
+    "4": {
+      "limited": {
+        "character": [
+          "item7",
+          "item8",
+          "item9"
+        ]
+      },
+      "standard": {
+        "character": [
+          "item1",
+          "item2",
+          "item3"
+        ],
+        "weapon": [
+          "item7",
+          "item8",
+          "item9"
+        ]
+      }
+    },
+    "3": {
+      "standard": {
+        "weapon": [
+          "item7item7item7item7item7item7item7item7item7item7item7item7item7",
+          "item8",
+          "item9"
+        ]
+      }
+    }
+  },
+  "weaponWish": {
+    "5": {
+      "desired": {
+        "weapon": [
+          "item1"
+        ]
+      },
+      "limited": {
+        "weapon": [
+          "item1",
+          "item2"
+        ]
+      },
+      "standard": {
+        "weapon": [
+          "item1",
+          "item2",
+          "item3"
+        ]
+      }
+    },
+    "4": {
+      "limited": {
+        "weapon": [
+          "item1",
+          "item2",
+          "item3"
+        ]
+      },
+      "standard": {
+        "character": [
+          "item1",
+          "item2",
+          "item3"
+        ],
+        "weapon": [
+          "item7",
+          "item8",
+          "item9"
+        ]
+      }
+    },
+    "3": {
+      "standard": {
+        "weapon": [
+          "item7",
+          "item8",
+          "item9"
+        ]
+      }
+    }
+  },
+  "standardWish": {
+    "5": {
+      "standard": {
+        "character": [
+          "item1",
+          "item2",
+          "item3"
+        ],
+        "weapon": [
+          "item7",
+          "item8"
+        ]
+      }
+    },
+    "4": {
+      "standard": {
+        "character": [
+          "item1",
+          "item2",
+          "item3"
+        ],
+        "weapon": [
+          "item7",
+          "item8",
+          "item9"
+        ]
+      }
+    },
+    "3": {
+      "standard": {
+        "weapon": [
+          "item7",
+          "item8",
+          "item9"
+        ]
+      }
+    }
+  }
+}

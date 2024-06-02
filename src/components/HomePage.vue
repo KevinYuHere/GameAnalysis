@@ -3,10 +3,10 @@
 <template>
   <div style="position: relative;display: flex;width: 100%;justify-content: center;">
     <div class="title-image-container" style="width: 90vw;height: 90vh;">
-      <img class="image" src="https://www.jd-link.com/uploadfiles/2022/03/%E4%B8%AD%E8%8D%AF%E6%9D%90.jpg">
+      <img class="image" src="https://upload-bbs.miyoushe.com/upload/2024/05/08/191335050/7d4643e830b3041a82f6c79713b0d7da_8402655201927690946.png?x-oss-process=image/auto-orient,0/interlace,1/format,png">
     </div>
-    <p id="home-title">药典可视</p>
-    <p id="home-subtitle">中药药典可视化成果展示</p>
+    <p id="home-title">抽卡解析</p>
+    <p id="home-subtitle">抽卡机制分析和模拟</p>
   </div>
 </template>
 <style>
